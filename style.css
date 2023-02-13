@@ -80,6 +80,11 @@ html {
     color: #ffffff;
     padding-left: 15px;
 }
+.push {
+    position:fixed;
+    right:0;
+    bottom:0;
+}
 body {
     height: 100%;
 }
