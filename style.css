@@ -79,12 +79,22 @@ html {
     color: #ffffff;
     padding: 2px;
 }
-.push {
-    right:0;
-    bottom:0;
+.row {
+    display: flex;
 }
+.push {
+    position:relative;
+}
+    .push > * {
+        float: right;
+        vertical-align: bottom;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
 body {
-    height: 100%;
+    
 }
 
 ul {
@@ -125,4 +135,8 @@ li {
 
 table, th, td {
     border: 1px solid black;
+}
+
+.current > * {
+    border: 2px solid red;
 }
