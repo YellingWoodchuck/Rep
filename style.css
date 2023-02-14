@@ -85,14 +85,28 @@ html {
 .push {
     position:relative;
 }
-    .push > * {
-        float: right;
-        vertical-align: bottom;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        margin: auto;
-    }
+.cat {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.hidden > * {
+    display:flex;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+    margin: auto;
+    text-align:center;
+}
+.catpic:hover + .hidden > * {
+    display: block;
+    color: red;
+}
 body {
     
 }
