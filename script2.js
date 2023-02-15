@@ -5,6 +5,14 @@ const time = ["08.15-09.50", "10.00-11.35", "12.30-14.05", "14.15-15.50", "16.00
 const template = "Diena: ";
 const template2 = "Days before execution: ";
 
+// add according sequence - "Name", Timegap (time array), 0-even/1-odd/2-both week, start week, end week, start2, end2 if present. 
+/* if even or odd without pair:
+ ["", 3, 1, ""],
+ ["TERMODINAMIKA UN SILTUMPĀRV.", 3, 0,"114"]
+
+["ANGĻU VALODA", 3, 1, "215"],
+["", 3, 0,""]
+*/
 const subjectMon = [
     ["KUĢU DĪZEĻIEK. UN TURBĪNAS", 0, 2, "125", 5, 18],
     ["MATEMĀTIKA", 1, 2, "306"],
@@ -22,7 +30,7 @@ const subjectWed = [
     ["TERMODINAMIKA UN SILTUMPĀRV.", 3, 0,"114"]
 ];
 const subjectThu = [
-    ["ANGĻU VALODA", 1, 2, "220"]
+    ["ANGĻU VALODA", 2, 2, "220"]
 ];
 const subjectFri = [
 ];
