@@ -7,13 +7,12 @@ window.onload = function() {
     var date1 = new Date();
     var date2 = new Date("05/26/2023");
     var date3 = new Date("01/16/2023");
-
     var Difference_In_Time = date2.getTime() - date1.getTime();
     var Difference_In_Days = Math.floor(Difference_In_Time / (1000 * 3600 * 24));
     document.getElementById("counter").innerHTML = template2 + Difference_In_Days;
-
+    
     currentweek = Math.floor(Math.ceil((date1 - date3) / (1000 * 3600 * 24)) / 7) + 1;
-    weeknumber = Math.floor(Math.ceil((date1 - date3) / (1000 * 3600 * 24)) / 7) % 2 +1;
+    weeknumber = Math.floor(Math.ceil(((date1 - date3) / (1000 * 3600 * 24)) / 7)) % 2;
     
     document.getElementById("CurrentDay").innerHTML = template + month + " " + date + ", " + currentweek + ". nedēļa";
 
@@ -113,7 +112,6 @@ function tableConstr(input, dom) {
                 }
             }         
             if (i == (dd)) {
-                console.log(i + " " + dd);
                 row.setAttribute("class", "current");
             }
             if (element.week == 2 || element.week == 0) {
@@ -125,6 +123,3 @@ function tableConstr(input, dom) {
     }
     )
 }
-
-
-
