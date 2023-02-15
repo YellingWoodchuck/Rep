@@ -30,7 +30,7 @@ const subjectWed = [
     ["TERMODINAMIKA UN SILTUMPĀRV.", 3, 0,"114"]
 ];
 const subjectThu = [
-    ["ANGĻU VALODA", 2, 2, "220"]
+    ["ANGĻU VALODA", 1, 2, "220"]
 ];
 const subjectFri = [
 ];
