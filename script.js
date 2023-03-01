@@ -130,6 +130,6 @@ function showFile(i) {
     var frame = document.createElement("iframe");
     frame.setAttribute("src", "td-formula1.pdf");
     frame.setAttribute("width", "100%");
-    frame.setAttribute("height", "500px");
+    frame.setAttribute("height", "100%");
     dom.appendChild(frame);
 }
