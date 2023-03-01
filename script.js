@@ -123,3 +123,13 @@ function tableConstr(input, dom) {
     }
     )
 }
+
+function showFile(i) {
+    var dom = document.getElementById("pdf");
+    dom.innerHTML = "";
+    var frame = document.createElement("iframe");
+    frame.setAttribute("src", "td-formula1.pdf");
+    frame.setAttribute("width", "100%");
+    frame.setAttribute("height", "500px");
+    dom.appendChild(frame);
+}
