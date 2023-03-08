@@ -34,3 +34,7 @@ const subjectThu = [
 ];
 const subjectFri = [
 ];
+
+const pdfList = [
+    "td - formula1.pdf"
+]
