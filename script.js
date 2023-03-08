@@ -133,3 +133,14 @@ function showFile(i) {
     frame.setAttribute("height", "100%");
     dom.appendChild(frame);
 }
+
+function showSched(i) {
+    var dom = document.getElementById("pdf");
+    dom.innerHTML = "";
+    var frame = document.createElement("iframe");
+    frame.setAttribute("src", "https://saraksti.rigassatiksme.lv/index.html#plan/0197,0198,3153,3179/57.04611;24.03122/12:30,arrive/ru");
+    frame.setAttribute("width", "100%");
+    frame.setAttribute("height", "100%");
+    dom.appendChild(frame);
+}
+
