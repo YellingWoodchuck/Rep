@@ -35,6 +35,11 @@ const subjectThu = [
 const subjectFri = [
 ];
 
-const pdfList = [
-    "td-formula1.pdf"
+const linkList = [
+    //TD aprekinu formulas
+    "td-formula1.pdf",
+    //MT monokristali
+    "https://docs.google.com/presentation/d/1vvx-V1NSwz3Am0IZIlf-22a1K8RbnOWwcRtXNU_qe7s/edit?usp=sharing",
+    //MT complex
+    "https://docs.google.com/presentation/d/16q2iMWrG3ATVs2E7Cx8AUvIYgd8iRevm/edit?usp=sharing&ouid=114556415476615058181&rtpof=true&sd=true"
 ]
