@@ -128,7 +128,7 @@ function showFile(i) {
     var dom = document.getElementById("pdf");
     dom.innerHTML = "";
     var frame = document.createElement("iframe");
-    frame.setAttribute("src", pdfList[i]);
+    frame.setAttribute("src", linkList[i]);
     frame.setAttribute("width", "100%");
     frame.setAttribute("height", "100%");
     dom.appendChild(frame);
