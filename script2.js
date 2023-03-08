@@ -36,5 +36,5 @@ const subjectFri = [
 ];
 
 const pdfList = [
-    "td - formula1.pdf"
+    "td-formula1.pdf"
 ]
