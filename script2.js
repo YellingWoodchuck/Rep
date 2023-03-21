@@ -1,9 +1,11 @@
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 const time = ["08.15-09.50", "10.00-11.35", "12.30-14.05", "14.15-15.50", "16.00-17.35", "17.45-19.15"]
-
+const src = [];
 const template = "Diena: ";
 const template2 = "Days before execution: ";
+var currentweek;
+var weeknumber;
 
 // add according sequence - "Name", Timegap (time array), 0-even/1-odd/2-both week, start week, end week, start2, end2 if present. 
 /* if even or odd without pair:
