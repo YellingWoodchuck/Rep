@@ -1,35 +1,21 @@
 window.onload = function() {
-
     const d = new Date();
     let month = months[d.getMonth()];
     let date = d.getDate();
-
     var date1 = new Date();
     var date2 = new Date("05/26/2023");
     var date3 = new Date("01/16/2023");
     var Difference_In_Time = date2.getTime() - date1.getTime();
     var Difference_In_Days = Math.floor(Difference_In_Time / (1000 * 3600 * 24));
-    document.getElementById("counter").innerHTML = template2 + Difference_In_Days;
-    
+    document.getElementById("counter").innerHTML = template2 + Difference_In_Days; 
     currentweek = Math.floor(Math.ceil((date1 - date3) / (1000 * 3600 * 24)) / 7) + 1;
-    weeknumber = Math.floor(Math.ceil(((date1 - date3) / (1000 * 3600 * 24)) / 7)) % 2;
-    
+    weeknumber = Math.floor(Math.ceil(((date1 - date3) / (1000 * 3600 * 24)) / 7)) % 2; 
     document.getElementById("CurrentDay").innerHTML = template + month + " " + date + ", " + currentweek + ". nedēļa";
-
-    var dom = document.getElementById("tbody");
-    const src = [];
     arrayToObj(subjectMon, src);
     arrayToObj(subjectTue, src);
     arrayToObj(subjectWed, src);
     arrayToObj(subjectThu, src);
-    arrayToObj(subjectFri, src);
-    tableConstr(src, dom);
-    if (weeknumber == 0) {
-        document.getElementById("even").style.color = "red";
-    }
-    else {
-        document.getElementById("odd").style.color = "red";
-    }
+    arrayToObj(subjectFri, src); 
 }
 
 function Subject(name, time, week = 2, where, weekstart = 1, weekend = 18, weekstart2 = 1, weekend2 = 18) {
@@ -132,4 +118,46 @@ function showFile(i) {
     frame.setAttribute("width", "100%");
     frame.setAttribute("height", "100%");
     dom.appendChild(frame);
+}
+function showSchedule() {
+    var dom = document.getElementById("pdf");
+    dom.innerHTML = "";
+    var table = document.createElement("table");
+    var thead = document.createElement("thead");
+    var tr = document.createElement("tr");
+    var thTime = document.createElement("th");
+    thTime.innerHTML = "Time";
+    var thOdd = document.createElement("th");
+    thOdd.id = "odd";
+    thOdd.innerHTML = "Odd week";
+    var thWhere = document.createElement("th");
+    thWhere.innerHTML = "Where";
+    var thEven = document.createElement("th");
+    thEven.id = "even";
+    thEven.innerHTML = "EvenWeek";
+    var thWhere2 = document.createElement("th");
+    thWhere2.innerHTML = "Where";
+    var thWeeks = document.createElement("th");
+    thWeeks.innerHTML = "Weeks";
+    var tbody = document.createElement("tbody");
+    tbody.id = "tbody";
+    table.appendChild(thead);
+    table.appendChild(tbody);
+    thead.appendChild(tr);
+    tr.appendChild(thTime);
+    tr.appendChild(thOdd);
+    tr.appendChild(thWhere);
+    tr.appendChild(thEven);
+    tr.appendChild(thWhere2);
+    tr.appendChild(thWeeks);
+    table.setAttribute("width", "100%");
+    table.setAttribute("height", "100%");
+    tableConstr(src, tbody);
+    dom.appendChild(table);
+    if (weeknumber == 0) {
+        document.getElementById("even").style.color = "red";
+    }
+    else {
+        document.getElementById("odd").style.color = "red";
+    }
 }
