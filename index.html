@@ -1,79 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
-	<script src="script2.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
 </head>
 <body>
-	<div class="header">
-		<h1>22MB030</h1>
-		<p id="counter"></p>
-	</div>
-	<div class="row">
-		<div class="col-2 menu">
-			<h1>MAT 2</h1>
-			<ul>
-				<li><a id="formulaLink" href="#" onclick="showFile(2);return false;">monocrystals</a></li>
-				<li><a id="formulaLink" href="#" onclick="showFile(1);return false;">complex project v1.0</a></li>
-			</ul>
-		</div>
-		<div class="col-2">
-			<h1>TD 1</h1>
-			<ul>
-				<li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGQ2MzA4NTAtZGQ5NS00YzFlLWIzZTQtMjVkN2FiZGRhYmFm%40thread.v2/0?context=%7b%22Tid%22%3a%222a543d45-a972-4474-9d53-dcf1a97e1623%22%2c%22Oid%22%3a%228e04f09d-3b44-49c0-a391-ed6c0c7a830b%22%7d">teams</a></li>
-				<li><a id="formulaLink" href="#" onclick="showFile(0);return false;">Apr. formulas</a></li>
-			</ul>
-		</div>
-		<div class="col-8">
-			<h1>Handout</h1>
-			<p id="CurrentDay"></p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-6">
-			<table>
-				<thead>
-					<tr>
-						<th>
-							Time
-						</th>
-						<th id="odd">
-							Odd week
-						</th>
-						<th>
-							Where
-						</th>
-						<th id="even">
-							Even week
-						</th>
-						<th>
-							Where
-						</th>
-						<th>
-							Weeks
-						</th>
-					</tr>
-				</thead>
-				<tbody id="tbody">			
-				</tbody>
-			</table>
-		</div>
-		<div class="col-6" id="pdf">
+    <div class="header">
+        <h1>22MB030</h1>
+        <p id="counter"></p>
+        <p id="CurrentDay"></p>
+    </div>
+    <div class="row">
+        <div class="col-4 menu">
+            <ul>
+                <li><a href="#" onclick="showSchedule();return false;">Time table</a></li>
+            </ul>
+            <div class="row">
+                <div class="col-6">
+                    <h1>MT 2</h1>
+                    <ul>
+                        <li><a id="formulaLink" href="#" onclick="showFile(2);return false;">monocrystals</a></li>
+                        <li><a id="formulaLink" href="#" onclick="showFile(1);return false;">complex project v1.0</a></li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h1>TD 1</h1>
+                    <ul>
+                        <li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGQ2MzA4NTAtZGQ5NS00YzFlLWIzZTQtMjVkN2FiZGRhYmFm%40thread.v2/0?context=%7b%22Tid%22%3a%222a543d45-a972-4474-9d53-dcf1a97e1623%22%2c%22Oid%22%3a%228e04f09d-3b44-49c0-a391-ed6c0c7a830b%22%7d">teams</a></li>
+                        <li><a id="formulaLink" href="#" onclick="showFile(0);return false;">Apr. formulas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <img class="catpic" src="https://i.ibb.co/3BpvM32/f7vlmn5adsdkj3fu79i6p5nb1f-4c718ed626ad58091118b331aa096819.png" alt="pusheen" />
+            <div class="hidden">
+                <div class="hide">Don't touch me.</div>
+            </div>
+        </div>
+            <div class="col-8" id="pdf">
 
-		</div>
-		<div class="col-2 push">
-			<div class="cat">
-				<img class="catpic" src="https://i.ibb.co/3BpvM32/f7vlmn5adsdkj3fu79i6p5nb1f-4c718ed626ad58091118b331aa096819.png" alt="pusheen" />
-				<div class="hidden">
-					<div class="hide">Don't touch me.</div>
-				</div>
-			</div>			
-		</div>
-	</div>
-	<div class="footer">
-		<p>David O-K </p>
-	</div>
+            </div>
+        </div>
+    <div class="footer">
+        <p>David O-K </p>
+    </div>
 </body>
 </html>
