@@ -45,5 +45,7 @@ const linkList = [
     //MT complex
     "https://docs.google.com/presentation/d/16q2iMWrG3ATVs2E7Cx8AUvIYgd8iRevm/edit?usp=sharing&ouid=114556415476615058181&rtpof=true&sd=true",
     //TD md
-    "https://docs.google.com/spreadsheets/d/1yGNg5SIPcY5LvyNMn66ze6DN1F6h45tS/edit?usp=sharing&ouid=114556415476615058181&rtpof=true&sd=true"
+    "https://docs.google.com/spreadsheets/d/1yGNg5SIPcY5LvyNMn66ze6DN1F6h45tS/edit?usp=sharing&ouid=114556415476615058181&rtpof=true&sd=true",
+    //TD water-vapor-table-diag
+    "WVTD.pdf"
 ]
