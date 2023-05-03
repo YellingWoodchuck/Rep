@@ -47,5 +47,7 @@ const linkList = [
     //TD md
     "https://docs.google.com/spreadsheets/d/18vX50uu4GP8VsooMxbgxnd81jI9grzNb/edit?usp=sharing&ouid=114556415476615058181&rtpof=true&sd=true",
     //TD water-vapor-table-diag
-    "WVTD.pdf"
+    "WVTD.pdf",
+    //TD humid-air-diag
+    "Humid-air.pdf"
 ]
