@@ -50,4 +50,6 @@ const linkList = [
     "WVTD.pdf",
     //TD humid-air-diag
     "Humid-air.pdf"
+    //DT dual fuel
+    "https://docs.google.com/presentation/d/1f2B3TC39I2Ss46jCih_VIdJodnZTq4Lv6sxjYUnITnU/edit?usp=sharing"
 ]
