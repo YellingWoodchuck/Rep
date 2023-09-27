@@ -51,5 +51,7 @@ const linkList = [
     //TD humid-air-diag
     "Humid-air.pdf",
     //DT dual fuel
-    "https://docs.google.com/presentation/d/1f2B3TC39I2Ss46jCih_VIdJodnZTq4Lv6sxjYUnITnU/edit?usp=sharing"
+    "https://docs.google.com/presentation/d/1f2B3TC39I2Ss46jCih_VIdJodnZTq4Lv6sxjYUnITnU/edit?usp=sharing",
+    //Physics 1.prez
+    "https://docs.google.com/presentation/d/1VJUIOI32rE0v-2O0nS69O2Babl5Sl2trI5r3WUg3A28/edit?usp=sharing"
 ]
