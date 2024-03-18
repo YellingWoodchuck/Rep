@@ -55,5 +55,7 @@ const linkList = [
     //Physics 1.prez
     "https://docs.google.com/presentation/d/1VJUIOI32rE0v-2O0nS69O2Babl5Sl2trI5r3WUg3A28/edit?usp=sharing",
     //Aux centrifugal pump
-    "https://docs.google.com/presentation/d/15Fpv5TALi_R-DdrIEAIyp1GCYoIlLr-lOnqVKnJQdys/edit?usp=sharing"
+    "https://docs.google.com/presentation/d/15Fpv5TALi_R-DdrIEAIyp1GCYoIlLr-lOnqVKnJQdys/edit?usp=sharing",
+    //English engines
+    "https://docs.google.com/presentation/d/1-9qTvhrNQm1DlFkUyajK4Mys978e4Y76iQLSrGnWihM/edit?usp=sharing"
 ]
