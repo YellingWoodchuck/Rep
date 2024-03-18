@@ -8,7 +8,7 @@ window.onload = function() {
     var Difference_In_Time = date2.getTime() - date1.getTime();
     var Difference_In_Days = Math.floor(Difference_In_Time / (1000 * 3600 * 24));
     document.getElementById("counter").innerHTML = template2 + Difference_In_Days; 
-    currentweek = Math.floor(Math.ceil((date1 - date3) / (1000 * 3600 * 24)) / 7) +0;
+    currentweek = Math.floor(Math.ceil((date1 - date3) / (1000 * 3600 * 24)) / 7) + 1;
     weeknumber = Math.floor(Math.ceil(((date1 - date3) / (1000 * 3600 * 24)) / 7)) % 2; 
     document.getElementById("CurrentDay").innerHTML = template + month + " " + date + ", " + currentweek + ". nedēļa";
     arrayToObj(subjectMon, src);
