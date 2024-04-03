@@ -57,5 +57,7 @@ const linkList = [
     //Aux centrifugal pump
     "https://docs.google.com/presentation/d/15Fpv5TALi_R-DdrIEAIyp1GCYoIlLr-lOnqVKnJQdys/edit?usp=sharing",
     //English engines
-    "https://docs.google.com/presentation/d/1-9qTvhrNQm1DlFkUyajK4Mys978e4Y76iQLSrGnWihM/edit?usp=sharing"
+    "https://docs.google.com/presentation/d/1-9qTvhrNQm1DlFkUyajK4Mys978e4Y76iQLSrGnWihM/edit?usp=sharing",
+    //DT common-rail
+    "https://docs.google.com/presentation/d/1p9uevKHp5PJJzdeKCCVsdeDs7p7JNF_gWf5ZWeYJRN0/edit?usp=sharing"
 ]
