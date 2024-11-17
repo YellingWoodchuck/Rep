@@ -163,6 +163,7 @@ function showSchedule() {
 }
 
 function fakeC() {
+	document.body.innerHTML = "";
 	$.get('cardbody.html', function(response) {
         $('body').append(response);
 });
