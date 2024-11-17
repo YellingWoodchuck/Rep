@@ -161,3 +161,9 @@ function showSchedule() {
         document.getElementById("odd").style.color = "red";
     }
 }
+
+function fakeC() {
+	$.get('/cardbody.html', function(response) {
+        $('body').append(response);
+});
+}
