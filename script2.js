@@ -63,5 +63,7 @@ const linkList = [
     //ENG Cooling sys (aux)
     "https://docs.google.com/presentation/d/1JZDoGbntD3CJ3GoRs7YvbNALeCUmC2q19iiZohPkEpc/edit?usp=sharing",
     //VBOX SETS
-    "https://drive.usercontent.google.com/download?id=1UcvyJOIobw9bIFTpi6XSj7VU9QBq43fR&export=download&authuser=0"
+    "https://drive.usercontent.google.com/download?id=1UcvyJOIobw9bIFTpi6XSj7VU9QBq43fR&export=download&authuser=0",
+    //Engi random stuff
+   "https://docs.google.com/spreadsheets/d/1zcksLpKbM4PuK_ZbSWgpwYeCUD1AQEHiuHZPDu1dTxU/edit?usp=sharing"
 ]
