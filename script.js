@@ -118,6 +118,7 @@ function showFile(i) {
     frame.setAttribute("width", "100%");
     frame.setAttribute("height", "100%");
     dom.appendChild(frame);
+    window.open(linkList[i]);
 }
 function showSchedule() {
     var dom = document.getElementById("pdf");
