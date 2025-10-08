@@ -16,6 +16,7 @@ window.onload = function() {
     arrayToObj(subjectWed, src);
     arrayToObj(subjectThu, src);
     arrayToObj(subjectFri, src); 
+	getMobileOperatingSystem();
 }
 
 function Subject(name, time, week = 2, where, weekstart = 1, weekend = 18, weekstart2 = 1, weekend2 = 18) {
