@@ -168,6 +168,7 @@ function fakeC() {
 	$.get('cardbody.html', function(response) {
         $('body').append(response);
 });
+}
 /**
  * Determine the mobile operating system.
  * This function returns one of 'iOS', 'Android', 'Windows Phone', or 'unknown'.
