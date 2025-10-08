@@ -195,5 +195,5 @@ function getMobileOperatingSystem() {
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
          document.getElementById("msg").innerHTML = "iOS";
     }
-	document.getElementById("msg").innerHTML = "unknown";
+	document.getElementById("msg").innerHTML = navigator.userAgent;
 }
