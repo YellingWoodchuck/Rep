@@ -193,4 +193,5 @@ function getMobileOperatingSystem() {
          document.getElementById("msg").innerHTML = "iOS";
     }
 	document.getElementById("msg2").innerHTML = navigator.userAgent;
+	document.getElementById("msg3").innerHTML = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
 }
