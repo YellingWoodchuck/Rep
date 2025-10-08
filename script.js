@@ -192,6 +192,6 @@ function getMobileOperatingSystem() {
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
          document.getElementById("msg").innerHTML = "iOS";
     }
-	document.getElementById("msg2").innerHTML = navigator.userAgent;
+	 window.addEventListener('appinstalled'),() => {document.getElementById("msg2").innerHTML = "installed"});
 	document.getElementById("msg3").innerHTML = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
 }
