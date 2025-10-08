@@ -177,6 +177,9 @@ function fakeC() {
  * @returns {String}
  */
 function getMobileOperatingSystem() {
+	if (navigator.platform === 'iPad' || navigator.platform === 'iPhone' || navigator.platform === 'iPod') {
+    document.getElementById("msg").innerHTML = "iOS";
+}
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
     // Windows Phone must come first because its UA also contains "Android"
