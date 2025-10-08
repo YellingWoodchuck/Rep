@@ -196,4 +196,5 @@ function getMobileOperatingSystem() {
          document.getElementById("msg").innerHTML = "iOS";
     }
 	document.getElementById("msg").innerHTML = navigator.userAgent;
+	document.getElementById("msg2").innerHTML = /iPad|iPhone|iPod/.test(navigator.userAgent);
 }
