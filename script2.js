@@ -65,5 +65,7 @@ const linkList = [
     //VBOX SETS
     "https://drive.usercontent.google.com/download?id=1UcvyJOIobw9bIFTpi6XSj7VU9QBq43fR&export=download&authuser=0",
     //Engi random stuff
-   "https://docs.google.com/presentation/d/1dYNAvgU66SQbjmHoMS8dpQ4RTftwYHFuhW3nDe28nSA/edit"
+   "https://docs.google.com/presentation/d/1dYNAvgU66SQbjmHoMS8dpQ4RTftwYHFuhW3nDe28nSA/edit",
+    //KVS Compander
+   "https://docs.google.com/presentation/d/1HYlmFhGeDhxe5tzuHMby_h6FuMVDiMHHEhWgSGzESrw/edit?usp=sharing"
 ]
